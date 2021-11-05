@@ -6,7 +6,8 @@ describe('Locator Program', () => {
     
         cy.visit('https://www.google.com/')
         cy.get("[name='q']").type("neelam dhurpate")
-        cy.get("[name='q']").type('{enter}') 
+        cy.get("[name='q']").type('{enter}')
+        cy.screenshot()
        
       
     })
